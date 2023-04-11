@@ -1,0 +1,10 @@
+div {
+    width: 100%;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+
+p {
+    color: white;
+    text-align: center;
+}

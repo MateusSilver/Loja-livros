@@ -1,0 +1,23 @@
+.input_comum {
+    border-radius: 25px;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+.botao_comum {
+    border: 1px solid green;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin: 5px;
+
+    color: white;
+    background-color: blue;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
