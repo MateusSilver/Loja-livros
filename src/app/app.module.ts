@@ -9,6 +9,8 @@ import { MarcaDaguaComponent } from './components/footer/marca-dagua/marca-dagua
 import { HeadComponent } from './components/header/head/head.component';
 import { FootComponent } from './components/footer/foot/foot.component';
 import { ContentComponent } from './components/conteudo/content/content.component';
+import { BannerComponent } from './components/header/banner/banner.component';
+import { BuscaComponent } from './components/header/busca/busca.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ContentComponent } from './components/conteudo/content/content.componen
     MarcaDaguaComponent,
     HeadComponent,
     FootComponent,
-    ContentComponent
+    ContentComponent,
+    BannerComponent,
+    BuscaComponent
   ],
   imports: [
     BrowserModule,

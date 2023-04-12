@@ -1,0 +1,19 @@
+div {
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+    margin: 0;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1c1c;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+span {
+    color: red;
+}
