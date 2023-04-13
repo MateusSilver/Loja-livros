@@ -11,6 +11,7 @@ import { FootComponent } from './components/footer/foot/foot.component';
 import { ContentComponent } from './components/conteudo/content/content.component';
 import { BannerComponent } from './components/header/banner/banner.component';
 import { BuscaComponent } from './components/header/busca/busca.component';
+import { CarouselModule } from './components/conteudo/carousel/carousel.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BuscaComponent } from './components/header/busca/busca.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
