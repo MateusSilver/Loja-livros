@@ -45,6 +45,7 @@
     display: flex;
     align-items: center;
     margin: 0 20px;
+    cursor: pointer;
 }
 
 .icon {
@@ -58,4 +59,8 @@
     margin: 0;
     padding: 0;
     font-weight: 700;    
+}
+
+.carrinho {
+    width: 15%;
 }

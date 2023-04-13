@@ -1,7 +1,9 @@
 div {
+    width: 100%;
     display: flex;
-    margin: 0 100px;
-    justify-content: space-between;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
 }
 
 nav {
@@ -9,12 +11,31 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    align-items: center;
 }
 
 nav li {
-    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 10px;
     padding: 10px;
     color: white;
-    background-color: green;
+    cursor: pointer;
+}
+
+nav li:hover {
+    text-shadow: 0px 0px 3px;
+}
+
+nav li:nth-last-child(2) {
+    color: yellow;
+}
+
+nav li:nth-last-child(1) {
+    margin: 0;
+    padding: 5px;
+    color: #212529;
+    background-color: white;
+    border-radius: 10px;
 }
