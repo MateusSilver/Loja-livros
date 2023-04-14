@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-interface carouselImage{
+export interface carouselImage{
   imageSrc : string;
   imageAlt : string;
 }
@@ -15,5 +15,11 @@ export class CarouselComponent {
 
   ]
 
-  selectedIndex = 0;
+  selectedIndex : number = 0;
+
+  getCurrentSlideUrl() : string {
+    console.log(this.images[this.selectedIndex].imageSrc);
+    return `url('${this.images[this.selectedIndex].imageSrc}')`
+  }
+
 }
