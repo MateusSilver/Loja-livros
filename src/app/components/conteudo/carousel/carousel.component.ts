@@ -29,6 +29,10 @@ export class CarouselComponent {
     this.selectedIndex = newIndex;
   }
 
+  goToSlide(slideIndex : number) : void {
+    this.selectedIndex = slideIndex;
+  }
+
   getCurrentSlideUrl() : string {
     console.log(this.images[this.selectedIndex].imageSrc);
     return `url('${this.images[this.selectedIndex].imageSrc}')`

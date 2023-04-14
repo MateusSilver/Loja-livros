@@ -2,4 +2,5 @@
     <div class="leftArrow" (click)="back()">&lt;</div>
     <div class="rightArrow" (click)="foward()">&gt;</div>
     <div class="slide" [ngStyle]="{'background-image': getCurrentSlideUrl()}"></div>
+    <div class="dotsContainer"> <div *ngFor="let slides of images; let slideIndex = index" class="dot" (click)="goToSlide(slideIndex)">*</div></div>
 </div>
