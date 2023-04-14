@@ -17,6 +17,18 @@ export class CarouselComponent {
 
   selectedIndex : number = 0;
 
+  foward() : void {
+    const isLastSlide = this.selectedIndex === this.images.length - 1;
+    const newIndex = isLastSlide ? 0 : this.selectedIndex+1;
+    this.selectedIndex = newIndex;
+  }
+
+  back() : void {
+    const isFirstSlide = this.selectedIndex === 0;
+    const newIndex = isFirstSlide ? this.images.length-1 : this.selectedIndex-1;
+    this.selectedIndex = newIndex;
+  }
+
   getCurrentSlideUrl() : string {
     console.log(this.images[this.selectedIndex].imageSrc);
     return `url('${this.images[this.selectedIndex].imageSrc}')`
