@@ -1,8 +1,9 @@
 div {
     width: 100%;
     text-align: center;
-    background-color: yellow;
+    background-color: #ffc105;
     margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -12,6 +13,7 @@ h2 {
     text-transform: uppercase;
     cursor: pointer;
     padding: 5px 0;
+    margin: 0;
 }
 
 span {
