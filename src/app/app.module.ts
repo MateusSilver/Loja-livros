@@ -12,6 +12,7 @@ import { ContentComponent } from './components/conteudo/content/content.componen
 import { BannerComponent } from './components/header/banner/banner.component';
 import { BuscaComponent } from './components/header/busca/busca.component';
 import { CarouselModule } from './components/conteudo/carousel/carousel.module';
+import { CatalogoComponent } from './components/conteudo/catalogo/catalogo.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CarouselModule } from './components/conteudo/carousel/carousel.module';
     FootComponent,
     ContentComponent,
     BannerComponent,
-    BuscaComponent
+    BuscaComponent,
+    CatalogoComponent
   ],
   imports: [
     BrowserModule,

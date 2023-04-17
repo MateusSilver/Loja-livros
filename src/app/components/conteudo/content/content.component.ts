@@ -8,4 +8,5 @@ import { carouselImage } from '../carousel/carousel.component';
 })
 export class ContentComponent {
   @Input() images : carouselImage[] = [];
+  @Input() catalogo : carouselImage[] = [];
 }
