@@ -12,7 +12,7 @@ export class CatalogoComponent {
   ]
 
   selectedIndex : number = 0;
-  catalogoIndex : number[] = [0,1,2,3,4,5,6,7];
+  catalogoIndex : number[] = [0,1,2,3,4,5,6,7,8,9];
 
   foward() : void {
     for(let i = 0; i <= this.catalogoIndex.length-1; i++){
@@ -30,10 +30,6 @@ export class CatalogoComponent {
       this.catalogoIndex[i] = newIndex;
     }
     console.log(this.catalogoIndex)
-  }
-
-  goToSlide(slideIndex : number) : void {
-    this.getCurrentSlideUrl(slideIndex)
   }
 
   getCurrentSlideUrl(ind : number) : string {

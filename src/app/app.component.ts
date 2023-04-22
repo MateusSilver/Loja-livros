@@ -50,67 +50,67 @@ export class AppComponent {
   catalogo : carouselImage[] = [
     {
       imageSrc: '../../../../assets/catalogo/01.png',
-      imageAlt: '1'
+      imageAlt: 'Mas vendidos'
     },
     {
       imageSrc: '../../../../assets/catalogo/02.png',
-      imageAlt: '2'
+      imageAlt: 'Lançamentos'
     },
     {
       imageSrc: '../../../../assets/catalogo/03.png',
-      imageAlt: '3'
+      imageAlt: 'Pré-venda'
     },
     {
       imageSrc: '../../../../assets/catalogo/04.png',
-      imageAlt: '4'
+      imageAlt: 'Todos os livros'
     },
     {
       imageSrc: '../../../../assets/catalogo/05.png',
-      imageAlt: '5'
+      imageAlt: 'Magicae'
     },
     {
       imageSrc: '../../../../assets/catalogo/06.png',
-      imageAlt: '6'
+      imageAlt: 'Macabra'
     },
     {
       imageSrc: '../../../../assets/catalogo/07.png',
-      imageAlt: ''
+      imageAlt: 'Crime scene'
     },
     {
       imageSrc: '../../../../assets/catalogo/08.png',
-      imageAlt: ''
+      imageAlt: 'medo clássico'
     },
     {
       imageSrc: '../../../../assets/catalogo/09.png',
-      imageAlt: ''
+      imageAlt: 'nacionais'
     },
     {
       imageSrc: '../../../../assets/catalogo/10.png',
-      imageAlt: ''
+      imageAlt: 'darklove'
     },
     {
       imageSrc: '../../../../assets/catalogo/11.png',
-      imageAlt: ''
+      imageAlt: 'quadrinhos'
     },
     {
       imageSrc: '../../../../assets/catalogo/12.png',
-      imageAlt: ''
+      imageAlt: 'darkside'
     },
     {
       imageSrc: '../../../../assets/catalogo/13.png',
-      imageAlt: ''
+      imageAlt: 'caveirinha'
     },
     {
       imageSrc: '../../../../assets/catalogo/14.png',
-      imageAlt: ''
+      imageAlt: 'cinebook'
     },
     {
       imageSrc: '../../../../assets/catalogo/15.png',
-      imageAlt: ''
+      imageAlt: 'dark fantasy'
     },
     {
       imageSrc: '../../../../assets/catalogo/16.png',
-      imageAlt: ''
+      imageAlt: 'crânio'
     },
     
   ]

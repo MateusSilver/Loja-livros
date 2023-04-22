@@ -3,8 +3,8 @@
     <div class="rightArrow" (click)="foward()">&gt;</div>
     <div class="slideContainer">
         <div class="slide" *ngFor="let ind of catalogoIndex">
-            <img [src]="getCurrentSlideUrl(ind)">
+            <img [src]="getCurrentSlideUrl(ind)" [alt]="catalogo[ind].imageAlt">
+            <p>{{catalogo[ind].imageAlt}}</p>
         </div>
     </div>
-    <div class="dotsContainer"> <div *ngFor="let slides of catalogo; let slideIndex = index" class="dot" (click)="goToSlide(slideIndex)">*</div></div>
 </div>
