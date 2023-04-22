@@ -13,6 +13,7 @@ import { BannerComponent } from './components/header/banner/banner.component';
 import { BuscaComponent } from './components/header/busca/busca.component';
 import { CarouselModule } from './components/conteudo/carousel/carousel.module';
 import { CatalogoComponent } from './components/conteudo/catalogo/catalogo.component';
+import { MainFooterComponent } from './components/footer/main-footer/main-footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CatalogoComponent } from './components/conteudo/catalogo/catalogo.compo
     ContentComponent,
     BannerComponent,
     BuscaComponent,
-    CatalogoComponent
+    CatalogoComponent,
+    MainFooterComponent
   ],
   imports: [
     BrowserModule,
