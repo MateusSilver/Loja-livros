@@ -1,13 +1,10 @@
 <div *ngIf="catalogo && catalogo.length > 0" class="carousel-container">
     <div class="leftArrow" (click)="back()">&lt;</div>
     <div class="rightArrow" (click)="foward()">&gt;</div>
-    <div class="slide" >
-        <img [src]="getCurrentSlideUrl()">
-        <img [src]="getCurrentSlideUrl()">
-        <img [src]="getCurrentSlideUrl()">
-        <img [src]="getCurrentSlideUrl()">
-        <img [src]="getCurrentSlideUrl()">
-        <img [src]="getCurrentSlideUrl()">
+    <div class="slideContainer">
+        <div class="slide" *ngFor="let ind of catalogoIndex">
+            <img [src]="getCurrentSlideUrl(ind)">
+        </div>
     </div>
     <div class="dotsContainer"> <div *ngFor="let slides of catalogo; let slideIndex = index" class="dot" (click)="goToSlide(slideIndex)">*</div></div>
 </div>

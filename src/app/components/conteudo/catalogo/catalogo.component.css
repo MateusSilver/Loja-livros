@@ -30,6 +30,14 @@
 .carousel-container {
     position: relative;
     height: 150px;
+    background-color: black;
+    
+}
+
+.slideContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
 }
   
 .dotsContainer {
@@ -41,4 +49,9 @@
     margin: 0 3px;
     cursor: pointer;
     font-size: 20px;
+}
+
+img {
+    padding: 20px;
+    
 }

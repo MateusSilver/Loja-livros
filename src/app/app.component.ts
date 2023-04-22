@@ -72,6 +72,46 @@ export class AppComponent {
       imageSrc: '../../../../assets/catalogo/06.png',
       imageAlt: '6'
     },
+    {
+      imageSrc: '../../../../assets/catalogo/07.png',
+      imageAlt: ''
+    },
+    {
+      imageSrc: '../../../../assets/catalogo/08.png',
+      imageAlt: ''
+    },
+    {
+      imageSrc: '../../../../assets/catalogo/09.png',
+      imageAlt: ''
+    },
+    {
+      imageSrc: '../../../../assets/catalogo/10.png',
+      imageAlt: ''
+    },
+    {
+      imageSrc: '../../../../assets/catalogo/11.png',
+      imageAlt: ''
+    },
+    {
+      imageSrc: '../../../../assets/catalogo/12.png',
+      imageAlt: ''
+    },
+    {
+      imageSrc: '../../../../assets/catalogo/13.png',
+      imageAlt: ''
+    },
+    {
+      imageSrc: '../../../../assets/catalogo/14.png',
+      imageAlt: ''
+    },
+    {
+      imageSrc: '../../../../assets/catalogo/15.png',
+      imageAlt: ''
+    },
+    {
+      imageSrc: '../../../../assets/catalogo/16.png',
+      imageAlt: ''
+    },
     
   ]
 }

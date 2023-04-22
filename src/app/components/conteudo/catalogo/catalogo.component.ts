@@ -12,26 +12,33 @@ export class CatalogoComponent {
   ]
 
   selectedIndex : number = 0;
+  catalogoIndex : number[] = [0,1,2,3,4,5,6,7];
 
   foward() : void {
-    const isLastSlide = this.selectedIndex === this.catalogo.length - 1;
-    const newIndex = isLastSlide ? 0 : this.selectedIndex+1;
-    this.selectedIndex = newIndex;
+    for(let i = 0; i <= this.catalogoIndex.length-1; i++){
+      const isLastSlide = this.catalogoIndex[i] === this.catalogo.length - 1;
+      const newIndex = isLastSlide ? 0 : this.catalogoIndex[i]+1;
+      this.catalogoIndex[i] = newIndex;
+    }
+    console.log(this.catalogoIndex);
   }
 
   back() : void {
-    const isFirstSlide = this.selectedIndex === 0;
-    const newIndex = isFirstSlide ? this.catalogo.length-1 : this.selectedIndex-1;
-    this.selectedIndex = newIndex;
+    for(let i=0; i <= this.catalogoIndex.length-1; i++){
+      const isFirstSlide = this.catalogoIndex[i] === 0;
+      const newIndex = isFirstSlide ? this.catalogo.length-1 : this.catalogoIndex[i]-1;
+      this.catalogoIndex[i] = newIndex;
+    }
+    console.log(this.catalogoIndex)
   }
 
   goToSlide(slideIndex : number) : void {
-    this.selectedIndex = slideIndex;
+    this.getCurrentSlideUrl(slideIndex)
   }
 
-  getCurrentSlideUrl() : string {
-    console.log(this.catalogo[this.selectedIndex].imageSrc);
-    return this.catalogo[this.selectedIndex].imageSrc
+  getCurrentSlideUrl(ind : number) : string {
+    console.log(this.catalogo[ind].imageSrc);
+    return this.catalogo[ind].imageSrc
   }
 
 }
